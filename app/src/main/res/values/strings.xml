@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NoAssemblyRequiredDanielC</string>
+    <string name="txtTitle">Tools Required For</string>
+    <string name="txtTitle2">IKEA Dresser</string>
+    <string name="txtTitle3">Bicycle</string>
+    <string name="txtTitle4">Wood Patio</string>
+    <string name="btn1">IKEA Dresser</string>
+    <string name="btn2">Bicycle</string>
+    <string name="btn3">Wood Patio</string>
+    <string name="txtSubtitle">Tools Required</string>
+    <string name="txtItem1">Flathead Screwdriver</string>
+    <string name="txtItem2">Phillipshead Screwdriver</string>
+    <string name="txtitem3">Hammer</string>
+    <string name="txtItem4">Pencil</string>
+    <string name="txtItem5">Measuring Tape</string>
+    <string name="txtItem6">Electric Drill</string>
+    <string name="txtItem7">Adjustable Wrench</string>
+    <string name="txtItem8">Open-End Wrenches</string>
+    <string name="txtItem9">Pliers</string>
+    <string name="txtItem10">Allen Wrench</string>
+    <string name="txtItem11">Chalk Reel Batterboard</string>
+    <string name="txtItem12">Posthole Digger</string>
+    <string name="txtItem13">Wheelbarrel</string>
+    <string name="txtItem14">Circular Saw</string>
+    <string name="title_activity_ikea">Ikea</string>
+    <string name="title_activity_bicycle">Bicycle</string>
+    <string name="title_activity_patio">Patio</string>
+    <string name="txtItem3">Hammer</string>
+</resources>

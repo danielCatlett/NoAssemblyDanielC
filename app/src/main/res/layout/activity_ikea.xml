@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ikea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.daniel_catlett.noassemblyrequireddanielc.Ikea">
+
+    <TextView
+        android:text="@string/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtTitle3"
+        android:textSize="38sp" />
+
+    <ImageView
+        app:srcCompat="@drawable/dresser"
+        android:id="@+id/dresser"
+        android:layout_height="150sp"
+        android:layout_width="200sp"
+        android:layout_below="@+id/txtTitle3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/txtSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtSubtitle"
+        android:textSize="25sp"
+        android:layout_below="@+id/dresser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/txtItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubtitle"
+        android:layout_alignLeft="@+id/txtTitle3"
+        android:layout_alignStart="@+id/txtTitle3"
+        android:layout_marginTop="17dp"
+        android:id="@+id/txtItem7" />
+
+    <TextView
+        android:text="@string/txtItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItem8"
+        android:layout_alignLeft="@+id/txtItem8"
+        android:layout_alignStart="@+id/txtItem8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="@string/txtItem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtItem9"
+        android:layout_below="@+id/txtItem2"
+        android:layout_alignLeft="@+id/txtItem2"
+        android:layout_alignStart="@+id/txtItem2" />
+
+    <TextView
+        android:text="@string/txtItem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtItem6"
+        android:layout_below="@+id/txtItem9"
+        android:layout_alignLeft="@+id/txtItem9"
+        android:layout_alignStart="@+id/txtItem9" />
+
+    <TextView
+        android:text="@string/txtItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtItem2"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+    <TextView
+        android:text="@string/txtItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/txtItem8"
+        android:layout_below="@+id/txtItem7"
+        android:layout_alignLeft="@+id/txtItem7"
+        android:layout_alignStart="@+id/txtItem7" />
+
+</RelativeLayout>
